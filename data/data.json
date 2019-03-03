@@ -1,0 +1,1386 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Good morning",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Good morning. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry but we don’t take reservations. If you come before 7 there’s a good chance you’ll get a table on Thursday",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "We’re closed on Mondays, sorry about that.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "We close early tonight, around [TIME]",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "When would you like your table?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "What day?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": " So what day do you need a table?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "What time will you be joining us?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "When would you like to eat?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "What time do you want your table?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "OK. And for how many people?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many guests will be in your party?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many people do you want me to book your table for?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good evening",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Good evening. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "[RESTAURANT NAME]",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "[RESTAURANT NAME], [NAME OF EMPLOYEE] speaking. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "[RESTAURANT NAME]. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "[RESTAURANT NAME]. How may I help you today?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "This is [RESTAURANT NAME]",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Thank you for calling [RESTAURANT NAME]. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Can I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "How may I help you today?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "May I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "This is [NAME] speaking. How may I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Hello, this is [RESTAURANT NAME]. How can I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "[RESTAURANT NAME]. How can I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "Thank you for calling [RESTAURANT NAME]. I’m [NAME]. How can I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "OK, how can I help you?",
+        "intent": "reservation_request",
+        "entities": []
+      },
+      {
+        "text": "We’re actually closed tonight for a private party. Sorry about that",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Can you wait a minute. [RESTAURANT PUTS AI ON HOLD] ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Can you call back in, say, [NUMBER] minutes? Our booking system is down right now",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": " We aren’t taking bookings for [DAY], it’s first come first served",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "If you get here by [TIME] you should get a table",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "After [TIME] we only serve appetizers ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Can you tell me which night you’ll be coming?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": " For which day?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "May I know the evening?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "Certainly, when?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "When would you like to have dinner?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "Of course, what evening will you be joining us?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "OK. When are you coming?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "For which day? I’ll be with you in a minute.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Sorry, not you. We’re very busy tonight, I was talking to another customer",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "So what day do you need a table?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "Okay, when would you like your reservation?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "Ok, when should I get one for you?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "When would you like to book one?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "When shall you arrive?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "ok, when do you want the reservation?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "At what day would you like to make the reservation?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "What time would you like the reservation for?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Of course, just tell me what time you’d like the reservation for?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "What time would like to have dinner?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "OK. What time will you be dining with us?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Can you tell me what time would you like the reservation for?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Just one moment please. For what time?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "At what time?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": " What time will you be arriving?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Certainly, what time?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "What time?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": " What time do you want to book for?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Sorry, we’re having some problems with the booking system, can you hold for a minute please?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "OK, we’re back up and running. What time did you say you wanted the table for?",
+        "intent": "reservation_time",
+        "entities": []
+      },
+      {
+        "text": "Oh, it looks like we’re having a problem with our booking system. Can you wait for just one minute?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hello. I’m really sorry about this but I can’t access the bookings right now. Can you call back in [NUMBER] minutes?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "For how many people?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "A table for how many guests?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many people will you need the reservation for?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many guests will be in your party?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many diners will be in your group?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many will be in the party?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many diners will be in your party?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "And how many people?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "Okay. Perfect. How many people?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many are coming?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many people are in your party?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many people will you need the reservation for?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "How many people will be in your group?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "So how many people is it for?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "Oh OK, I’ll need to check that with the manager. Can I put you on hold for a sec?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hi again. Yes, we can do that",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "So how many people are coming?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "Right, I’m going to have to check that with the manager. I’ll be back in a sec.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": " Hi there. I’m sorry but we can’t take groups larger than [NUMBER]. ",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": "Okay. Perfect. How many people? Oh, sorry, can you hold a sec please?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hello, sorry we’ve got a full house tonight. OK, so that’s for how many people?",
+        "intent": "party_number",
+        "entities": []
+      },
+      {
+        "text": "Any special requests?",
+        "intent": "special_request",
+        "entities": []
+      },
+      {
+        "text": "Any thing in particular?",
+        "intent": "special_request",
+        "entities": []
+      },
+      {
+        "text": "Any special mentions?",
+        "intent": "special_request",
+        "entities": []
+      },
+      {
+        "text": "Can i do anything else for you?",
+        "intent": "special_request",
+        "entities": []
+      },
+      {
+        "text": "Anything specific you want ?",
+        "intent": "special_request",
+        "entities": []
+      },
+      {
+        "text": "OK. I’ll notify our chef, and make a note of it beside your booking.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": " OK. Let me just check with our chef if we can accommodate that",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hello, OK, so that’s no problem ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "OK. Let me just check with our chef",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hello, actually we can’t guarantee there won’t be traces of [ALLERGEN] in the food, we use it for other recipes",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Oh, I’ll need to check that with another member of staff. Sorry, I’m new here. I’ll be back in a minute. ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Hi there, yeah, that’s no problem, we can accommodate that",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "That’s no problem, I’ll seat you at a suitable table",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I’ll make a note of it . Do you have any other requests?",
+        "intent": "thats_all",
+        "entities": []
+      },
+      {
+        "text": "Uh, could you please note we will be celebrating a [OCCASION]?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "Is it a special occasion?",
+        "intent": "yes_special",
+        "entities": []
+      },
+      {
+        "text": "Is it for a special event",
+        "intent": "no_no",
+        "entities": []
+      },
+      {
+        "text": "Would you like a window seat?",
+        "intent": "table_preference",
+        "entities": []
+      },
+      {
+        "text": "Would you like a corner table or the middle?",
+        "intent": "table_preference",
+        "entities": []
+      },
+      {
+        "text": "We can’t guarantee a window table, but I’ll note your preference.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Do you want to be seated indoors or in our garden area?",
+        "intent": "table_preference",
+        "entities": []
+      },
+      {
+        "text": "Would you like a seat indoors?",
+        "intent": "table_preference",
+        "entities": []
+      },
+      {
+        "text": "Would you like a table in our upstairs dining room or downstairs?",
+        "intent": "table_preference",
+        "entities": []
+      },
+      {
+        "text": "Would you like a garden seat?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": " We can only seat you in the garden",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "Yes, that’s ok, we book up fast so call back quick if you can",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Of course",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry but all the garden tables are booked on [DAY]",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "We can only seat you in the garden",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "We only have a garden table free, it’s also the smoking area",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "We only have a table available in the garden but it’s the smoking area ",
+        "intent": "no_table",
+        "entities": []
+      },
+      {
+        "text": "The bathrooms are in a separate area, that’ll be fine",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "May I have your name, please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "And the name on the reservation?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "May I have your last name please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": " May I have your name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Can I take your name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Can I have your name please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": " Can I take your name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Could I have your name, please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Your name, please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Could you tell me your name, please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "What name can I use to hold the table?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": " How do you spell your name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Could you tell me your name, please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "What name can I use to hold the table?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "How do you spell your name?",
+        "intent": "spell_name",
+        "entities": []
+      },
+      {
+        "text": "Can you spell that please?",
+        "intent": "spell_name",
+        "entities": []
+      },
+      {
+        "text": "How do you spell that?",
+        "intent": "spell_name",
+        "entities": []
+      },
+      {
+        "text": "Could you spell that for me, please?",
+        "intent": "spell_name",
+        "entities": []
+      },
+      {
+        "text": "Can you repeat the name for me please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Can you repeat that please?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "And a phone number please?",
+        "intent": "contact_number",
+        "entities": []
+      },
+      {
+        "text": "Could I have your telephone number?",
+        "intent": "contact_number",
+        "entities": []
+      },
+      {
+        "text": "May I have your contact number? ",
+        "intent": "contact_number",
+        "entities": []
+      },
+      {
+        "text": "Is there a phone number we can get you on?",
+        "intent": "contact_number",
+        "entities": []
+      },
+      {
+        "text": "May I have your number, please?",
+        "intent": "contact_number",
+        "entities": []
+      },
+      {
+        "text": "I repeat [NUMBER], is that right?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "I repeat [NUMBER], is that right?",
+        "intent": "no_no",
+        "entities": []
+      },
+      {
+        "text": "I repeat [NUMBER], please excuse me for a sec",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Sorry about that. OK, so your number is [NUMBER]?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "Was that a [NUMBER] or a {NUMBER]?",
+        "intent": "number_repeat",
+        "entities": []
+      },
+      {
+        "text": "That’s one digit too short",
+        "intent": "number_repeat",
+        "entities": []
+      },
+      {
+        "text": "Let me just check these reservation details, a table for [PARTY NUMBER], [DAY] night at [TIME] in the name of [NAME]. And your phone number is [NUMBER]. Is that correct? ",
+        "intent": "confirm_details",
+        "entities": []
+      },
+      {
+        "text": "So that’s a table for [PARTY NUMBER], for next [DAY] at [TIME]? ",
+        "intent": "confirm_details",
+        "entities": []
+      },
+      {
+        "text": "Okay. Let me repeat it back to you. This is a reservation for [DAY] for [PARTY NUMBER] at [TIME]. Is that correct?",
+        "intent": "confirm_details",
+        "entities": []
+      },
+      {
+        "text": "OK, I will repeat all the information you gave me. [DAY] at [TIME], table for [PARTY NUMBER].",
+        "intent": "confirm_details",
+        "entities": []
+      },
+      {
+        "text": " OK, let me just double-check your details. Oh, sorry, can you excuse me for a moment?",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Sorry about that. Where were we, yeah, it’s a table for [NUMBER], on [DAY], at {TIME}",
+        "intent": "confirm_details",
+        "entities": []
+      },
+      {
+        "text": "Please excuse me, while I check the reservations. I’ll be right back.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I’m going to put your call on hold, while I check availability.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Just one moment please, while I see what we have available.",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Thank you, just give me a minute and let me check",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I’m just going to put you on hold for a few secs",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "Hold on one moment please, while I check what’s available",
+        "intent": "check_availability",
+        "entities": []
+      },
+      {
+        "text": " Please excuse me for a moment. I will check if there is still a table available",
+        "intent": "check_availability",
+        "entities": []
+      },
+      {
+        "text": "I’ll take a look and be back in a second.",
+        "intent": "check_availability",
+        "entities": []
+      },
+      {
+        "text": "Thank you for waiting. Yes, we have a spot free",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry to keep you waiting. I can seat you at [TIME] on [DAY]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "Sorry to keep you on hold. We do have a table available at that time",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "I can confirm your reservation for a table for [PARTY NUMBER], [DAY] night at [TIME]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": " Yes, that’s fine. See you at [TIME] this [DAY]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "Thank you, see you this [DAY] at [TIME]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": " OK. We will see you this [DAY] at [TIME]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": " All booked",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": " That’s four people booked for [TIME] tomorrow",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "OK, we'll see you next week",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "OK. Your reservation is booked. Is there anything else I can do for you?",
+        "intent": "thats_all",
+        "entities": []
+      },
+      {
+        "text": " We’ll see you tomorrow evening at [TIME] then",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "able for [PARTY NUMBER] at [TIME] this [DAY]",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "Okay, you’re all set. I have you booked in for a table for [PARTY NUMBER] at [TIME] tomorrow night",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "Okay, done. We reserved your table for [PARTY NUMBER], for tomorrow evening",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "We’re very busy on [DAY]. But I can fit you in at [TIME]. The table is only free for 90 minutes. Is that OK",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "I’ll need credit card details, we have a cancellation fee if you don’t show up",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": " We can fit you, but you might have to wait",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "We can fit you, but there might be a short wait",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": " We have a bar area you can stay until your table is ready",
+        "intent": "confirm_booking",
+        "entities": []
+      },
+      {
+        "text": "We do have a table but you might have to wait a bit",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": "I’m afraid we don’t have a table at that time. Would [TIME] be OK?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "I’m afraid we don’t have a table available at that time. But there is a table free at [TIME]",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry to say that we don’t have a table available at that time. Would later suit? Say [TIME]?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": " I’m sorry to say that we don’t have a table available at that time. Would later suit? Say [TIME]?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "Do you want me to hold the table while you check?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "I’m very sorry but we don’t have any tables left for that time, would [TIME] suit?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "Sorry. The reservations for today are full. You can reserve for [DAY}",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "Oh, I’m sorry. We’re booked solid tonight",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": "We don’t have any tables free tonight. I’m very sorry about that",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "May I help you to reserve a table at another one of our restaurants instead? ",
+        "intent": "no_no",
+        "entities": []
+      },
+      {
+        "text": "Perhaps you’d like to eat in our other restaurant, (RESTAURANT NAME)?",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry, we can only fit [NUMBER] people [DAY]",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": "We’ve only got a table free for [NUMBER] people",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": " We’ll let you know if there’s a cancellation ",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "Do you want us to give you a call if there’s a cancellation ",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "We can give you a call if anyone cancels",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "Can you call back later? I’m waiting to see if a group needs one or two tables",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Can you call back in [NUMBER] hours? We have a preliminary booking that might cancel",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "We’ve moved address to [ADDRESS]",
+        "intent": "acknowledge_info",
+        "entities": []
+      },
+      {
+        "text": "We’ve actually moved address this week",
+        "intent": "acknowledge_info",
+        "entities": []
+      },
+      {
+        "text": " It’s [ADDRESS]",
+        "intent": "acknowledge_info",
+        "entities": []
+      },
+      {
+        "text": "Our main entrance is on [STREET NAME]",
+        "intent": "acknowledge_info",
+        "entities": []
+      },
+      {
+        "text": "There is a band coming on at [TIME]",
+        "intent": "acknowledge_info",
+        "entities": []
+      },
+      {
+        "text": "Thank you very much for calling, [NAME]. We look forward to seeing you then. Have a great day.",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thank you very much for booking with us, and we look forward to being of service to you this evening",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thank you [NAME], we look forward to seeing you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Have a pleasant day",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thank you for calling",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Look forward to seeing you, [NAME]",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "No problem, what name is it booked under?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Sure, what’s the name",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "I’ll check now. Can you tell me your name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Give me a moment please",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Sorry about that, we’re very busy tonight. How can I help you?",
+        "intent": "change_reservation",
+        "entities": []
+      },
+      {
+        "text": " Let me check our system, one second ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I need your name please",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "No problem, what’s the name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Can you hold on a second",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Sorry about that, how can I help you?",
+        "intent": "cancel_booking",
+        "entities": []
+      },
+      {
+        "text": "OK, is it for today?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "OK. What day is it booked for?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "OK. What what day is the table booked for?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "Sorry about the noise, we’re very busy tonight",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "[UNCLEAR COMMENT FROM RESTAURANT]",
+        "intent": "can_you_repeat",
+        "entities": []
+      },
+      {
+        "text": "This line is bad, can you call back?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "And how are you today?",
+        "intent": "great",
+        "entities": []
+      },
+      {
+        "text": "[SAYS A LOT OF MENU INFORMATION]",
+        "intent": "decide",
+        "entities": []
+      },
+      {
+        "text": "We have no child policy after [TIME]",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "It’s a no child policy restaurant",
+        "intent": "thanks_anyway",
+        "entities": []
+      },
+      {
+        "text": "Tonight is our special menu, it’s [FOOD TYPE]",
+        "intent": "special_thanks",
+        "entities": []
+      },
+      {
+        "text": "Our [FOOD TYPE] delivery couldn’t make it today, so it won’t be on the menu",
+        "intent": "special_thanks",
+        "entities": []
+      },
+      {
+        "text": " We serve a buffet on [DAY], is that OK?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": " We have a buffet on [DAY], but we also have our normal menu",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "Will you be having the buffet or our special menu?",
+        "intent": "decide",
+        "entities": []
+      },
+      {
+        "text": "Does your group want the buffet or the regular menu?",
+        "intent": "decide",
+        "entities": []
+      },
+      {
+        "text": "Yes, that’s no problem ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Are you having the regular menu or the buffet?",
+        "intent": "decide",
+        "entities": []
+      },
+      {
+        "text": "We need to know in advance",
+        "intent": "get_back",
+        "entities": []
+      },
+      {
+        "text": "It’s bring your own wine. There’s a corkage fee, it’s [AMOUNT]",
+        "intent": "special_thanks",
+        "entities": []
+      },
+      {
+        "text": "No, our license doesn’t permit it",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "It’s a BYOB restaurant, there’s no corkage fee",
+        "intent": "drinks",
+        "entities": []
+      },
+      {
+        "text": "[LINE GOES DEAD]",
+        "intent": "call_back",
+        "entities": []
+      },
+      {
+        "text": "[DOESN’T COME BACK TO THE PHONE AFTER CHECKING SOMETHING]",
+        "intent": "call_back",
+        "entities": []
+      },
+      {
+        "text": "OK, what was the name?",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "Oh, OK, can you tell me what day again you want a table?",
+        "intent": "reservation_date",
+        "entities": []
+      },
+      {
+        "text": "[DOESN’T COME BACK TO THE PHONE AFTER CHECKING SOMETHING]",
+        "intent": "call_back",
+        "entities": []
+      },
+      {
+        "text": " Oh, I’m sorry, I don’t know what happened",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "Right, so it was for [NAME], wasn’t it?",
+        "intent": "yes_yes",
+        "entities": []
+      },
+      {
+        "text": "What day is your reservation for?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "Got it. All confirmed, see you [day]",
+        "intent": "special_thanks",
+        "entities": []
+      },
+      {
+        "text": "What day is it for?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "Right, let me check. Can you hold a sec please?",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": " Hi, I’m so sorry about this but my colleague has booked the table for someone else, while we were waiting for you to call back",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "I’m very sorry for the mix-up, my colleague is new and isn’t familiar with our system",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "OK. What day are you coming?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "I’ll just take a look. One minute",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I’m sorry but we don’t have a record of your booking",
+        "intent": "make_book",
+        "entities": []
+      },
+      {
+        "text": " Yes we can, we still have a table free. I’ll just need to take some details",
+        "intent": "what",
+        "entities": []
+      },
+      {
+        "text": "OK. What day?",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": "Let me look for it, one second ",
+        "intent": "acknowledge",
+        "entities": []
+      },
+      {
+        "text": "I can’t find your booking here, are you sure it’s for [DAY]",
+        "intent": "booked_day",
+        "entities": []
+      },
+      {
+        "text": " I’ve looked again and there isn’t a record of it, I’m sorry about this",
+        "intent": "make_book",
+        "entities": []
+      },
+      {
+        "text": "We’re fully booked on [DAY], sorry",
+        "intent": "thats_fine",
+        "entities": []
+      },
+      {
+        "text": "Sorry, you must have dialed the wrong number",
+        "intent": "wrong_number",
+        "entities": []
+      },
+      {
+        "text": "This isn’t a restaurant",
+        "intent": "wrong_number",
+        "entities": []
+      },
+      {
+        "text": "Wrong number",
+        "intent": "wrong_number",
+        "entities": []
+      }
+    ]
+  }
+}

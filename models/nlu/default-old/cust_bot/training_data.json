@@ -1,0 +1,88 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "reservation_request",
+        "entities": [],
+        "text": "Good morning"
+      },
+      {
+        "intent": "reservation_request",
+        "entities": [],
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "reservation_request",
+        "entities": [],
+        "text": "Good morning. How may I help you?"
+      },
+      {
+        "intent": "acknowledge",
+        "entities": [],
+        "text": "I’m sorry but we don’t take reservations. If you come before 7 there’s a good chance you’ll get a table on Thursday"
+      },
+      {
+        "intent": "acknowledge",
+        "entities": [],
+        "text": "We’re closed on Mondays, sorry about that."
+      },
+      {
+        "intent": "acknowledge",
+        "entities": [],
+        "text": "We close early tonight, around [TIME]"
+      },
+      {
+        "intent": "reservation_date",
+        "entities": [],
+        "text": "When would you like your table?"
+      },
+      {
+        "intent": "reservation_date",
+        "entities": [],
+        "text": "What day?"
+      },
+      {
+        "intent": "reservation_date",
+        "entities": [],
+        "text": " So what day do you need a table?"
+      },
+      {
+        "intent": "reservation_time",
+        "entities": [],
+        "text": "What time will you be joining us?"
+      },
+      {
+        "intent": "reservation_time",
+        "entities": [],
+        "text": "When would you like to eat?"
+      },
+      {
+        "intent": "reservation_time",
+        "entities": [],
+        "text": "What time do you want your table?"
+      },
+      {
+        "intent": "party_number",
+        "entities": [],
+        "text": "OK. And for how many people?"
+      },
+      {
+        "intent": "party_number",
+        "entities": [],
+        "text": "How many guests will be in your party?"
+      },
+      {
+        "intent": "party_number",
+        "entities": [],
+        "text": "How many people do you want me to book your table for?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

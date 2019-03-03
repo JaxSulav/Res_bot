@@ -1,0 +1,283 @@
+intents:
+  - greet
+  - goodbye
+  - reservation_request
+  - acknowledge
+  - reservation_date
+  - reservation_time
+  - party_number
+  - special_request
+  - no_no
+  - yes_yes
+  - yes_special
+  - table_preference
+  - no_table
+  - name
+  - spell_name
+  - contact_number
+  - number_repeat
+  - confirm_details
+  - check_availability
+  - confirm_booking
+  - get_back
+  - thats_all
+  - thats_fine
+  - thanks_anyway
+  - acknowledge_info
+  - change_reservation
+  # - cancel_booking
+  - booked_day
+  - can_you_repeat
+  - great
+  - special_thanks
+  - decide
+  - drinks
+  - call_back
+  - make_book
+  - what
+  - wrong_number
+  # - delay
+
+templates:
+  utter_greet:
+    - 'Hello'
+    - 'Hi'
+  utter_goodbye:
+    - 'goodbye'
+    - 'You too'
+    - 'Bye'
+    - 'Thanks again, bye'
+    - 'Yeah, you too'
+    - 'Bye, bye bye'
+  utter_reservation_request:
+    - 'Hi, I’m calling to make a reservation'
+    - 'Hi, I’m calling to book a table '
+    - 'Hi, I’d like to reserve a table please '
+    - 'Hi, I’d like to make a reservation'
+  utter_acknowledge:
+    - 'Uh, OK. Thanks'
+    - 'Uh, that’s fine. Thanks'
+    - 'Great, thanks'
+    - 'Certainly'
+    - 'OK'
+    - 'Ah, got it'
+    - 'Yeah, sure'
+    - 'That’s great'
+  utter_reservation_date:
+    - 'Um. I’m looking for something tomorrow'
+    - 'Um. On [DAY] night'
+    - 'Um. It’s for tomorrow'
+    - 'Uh. It’s for [DAY] evening '
+    - 'Um. It’s for [DAY] night'
+    - 'Um. It’s for [DAY]'
+    - 'Uh. On [DAY]'
+    - 'Um. We need it for tonight'
+  utter_reservation_time:
+    - 'At [TIME]'
+    - 'Can you, uh, book it for [TIME]?'
+    - '[TIME] is good'
+    - '[TIME] is fine'
+    - 'Is [TIME] available?'
+    - 'For, uh, [TIME]'
+    - 'For, uh, [TIME]'
+    - 'Do you have, uh, anything between [TIME] and [TIME]?'
+    - 'Between, uh, [TIME] and [TIME]'
+    - 'We would prefer, uh, [TIME] to [TIME]'
+    - 'Around [TIME] is good'
+  utter_party_number:
+    - 'For [PARTY NUMBER] people'
+    - 'It’s for [PARTY NUMBER] people'
+    - 'It’s for a party of [PARTY NUMBER]'
+    - '[PARTY NUMBER] people'
+    - 'It’s for a party of [PARTY NUMBER]'
+    - 'We need a table for [PARTY NUMBER]'
+    - 'It’s for a group of [LARGE PARTY NUMBER]'
+    - 'It’s for [LARGE PARTY NUMBER] people'
+  utter_special_request:
+    - 'Just so you know, one of our group has a [ALLERGY TYPE]'
+    - 'Uh, one of our group has a [ALLERGY TYPE]'
+    - 'Just so you know, one of our group needs wheelchair access'
+    - 'Just so you know, uh, we will need wheelchair access'
+    - 'Can we have a table by the window? '
+    - 'Can we have a table outside?'
+    - 'Can we have a garden table?'
+    - 'Can you make sure the table isn’t near the bathrooms please?'
+  utter_no_no:
+    - 'No'
+    - 'No, thanks'
+    - 'Nope'
+  utter_yes_yes:
+    - 'Yes of course'
+    - 'Yeah, sure'
+    - 'OK'
+    - 'Yeah of course'
+    - 'Yeah, that’s right'
+    - 'Yeah, that’s it'
+    - 'Uh, yeah, thanks'
+    - 'Great, thanks'
+    - 'Yeah, that’d be great'
+    - 'Yeah sure, thanks'
+  utter_yes_special:
+    - 'Yeah, it’s a [SPECIAL OCCASION]'
+  utter_table_preference:
+    - 'It doesn’t matter'
+    - 'Either is fine'
+    - 'Uh, the garden sounds good'
+    - 'No thanks, we’d like the garden'
+  utter_no_table:
+    - 'Uh, I don’t think that’ll suit, but thanks for your time'
+  utter_name:
+    - 'The name is [NAME]'
+    - 'It’s [NAME]'
+    - 'Yes, it’s [NAME]'
+    - 'Sure, it’s [NAME]'
+    - 'Yeah, it’s [NAME]'
+  utter_spell_name:
+    - 'It’s [SPELL NAME]'
+    - 'Sure. [SPELL NAME]'
+  utter_contact_number:
+    - 'Uh, [NUMBER]'
+    - 'It’s, uh, [NUMBER]'
+  utter_number_repeat:
+    - 'I’ll repeat it, it’s [NUMBER]'
+    - 'I’ll repeat it, the number is [NUMBER]'
+  utter_confirm_details:
+    - 'Yeah, that’s it'
+    - 'Yeah, that’s right'
+    - 'Uh, actually it’s for [TIME]'
+    - 'Uh, it’s for a party of [PARTY NUMBER]'
+    - 'That’s it'
+  utter_check_availability:
+    - 'Great, thanks'
+    - 'That’s great, thanks'
+    - 'That’s great, thanks!'
+  utter_confirm_booking:
+    - 'That’s great, thanks!'
+    - 'Perfect, thanks!'
+    - 'That’s great, thanks!'
+    - 'Great! Thank you so much. I appreciate your help.'
+    - 'Awesome, thank you'
+    - 'That’s great!'
+    - 'Great, thank you'
+    - 'Thank you'
+    - 'OK, thank you.'
+    - 'Thanks a lot'
+    - 'Thank you very much, thank you.'
+    - 'Perfect, thank you!'
+  utter_get_back:
+    - 'Uh, can I check and call you back?'
+    - 'Um, OK, I’ll get back to you'
+    - 'Um, let me check and get back to you'
+    - 'I need to check, I’ll get back to you'
+  utter_thats_all:
+    - 'No, that’s all'
+    - 'That’s all, thank you'
+    - 'Uh, no thanks'
+  utter_thats_fine:
+    - 'That’s fine'
+    - 'That’s no problem'
+    - 'Uh, yeah, that’s fine'
+    - 'That’s OK'
+  utter_thanks_anyway:
+    - 'Uh, OK, thanks anyway'
+    - 'Uh, I don’t think that’ll suit, but thanks anyway'
+    - 'OK, well thanks anyway'
+  utter_acknowledge_info:
+    - 'Oh, OK, got it'
+    - 'Great, got it'
+    - 'OK, thanks'
+    - 'OK, great'
+  utter_change_reservation:
+    - 'Hi, I need to change my reservation'
+    - 'Hi, I’m calling to change my reservation time'
+    - 'Hi, uh, I have a reservation for tomorrow night at [TIME], can I change that to [TIME]?'
+    - 'Hi, uh, is it possible to change a reservation from [DAY] to [DAY]?'
+    - 'Hi, I’m calling to change my reservation'
+    - 'Uh, I have a reservation for tomorrow night at, [TIME], can I change that to [TIME]?'
+  #utter_cancel_booking:
+  #        - 'Hi, I’m calling to cancel a reservation'
+  #        - 'Hi, I need to cancel a reservation'
+  #        - 'Hi, I’m calling to cancel a booking'
+  #        - 'I need to cancel a booking'
+  utter_booked_day:
+    - 'It’s for [DAY]'
+    - 'It’s [DAY]'
+    - 'Yeah, it’s for [DAY]'
+  utter_can_you_repeat:
+    - 'Sorry, uh, can you repeat that'
+    - 'Sorry, I didn’t catch that'
+    - 'Can you repeat that please?'
+    - 'The connection isn’t great, can you repeat that?'
+    - 'Sorry, uh, I didn’t catch that'
+  utter_great:
+    - 'I’m great, thanks'
+  utter_special_thanks:
+    - 'OK, thanks'
+    - 'OK, thanks for letting me know'
+  utter_decide:
+    - 'OK, thanks, we’ll decide when we get there'
+    - 'Can we decide when we arrive?'
+    - 'We’ll choose when we get there'
+  utter_drinks:
+    - 'Do you also have a drinks menu?'
+  utter_call_back:
+    - 'CALLS BACK] Hi, I was just making a booking with you'
+    - 'Hi, I’m calling to confirm a reservation I made earlier'
+    - 'Hi, I’m calling to confirm a reservation'
+    - 'Hi, I’m calling to confirm a table'
+  utter_make_book:
+    - 'Uh, OK, can you make the booking now?'
+    - 'Can you book the table now'
+  utter_what:
+    - 'OK, what do you need to know?'
+    - 'OK, what details do you want?'
+    - 'Sure, what details?'
+  utter_wrong_number:
+    - 'Oh I’m sorry, have a good day'
+    #utter_delay:
+    #  - 'Let me think, uh, [ANSWER]'
+    #  - 'Give me a sec, uh, [ANSWER]'
+    #  - 'Um, I’ll just be a sec, [ANSWER]'
+    #  - 'Let me check something, I’ll be one second, [ANSWER]'
+    #  - 'Um, hang on one second, [ANSWER]'
+    #  - 'Let me see, uh, [ANSWER] '
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_reservation_request
+  - utter_acknowledge
+  - utter_reservation_date
+  - utter_reservation_time
+  - utter_party_number
+  - utter_special_request
+  - utter_no_no
+  - utter_yes_yes
+  - utter_yes_special
+  - utter_table_preference
+  - utter_no_table
+  - utter_name
+  - utter_spell_name
+  - utter_contact_number
+  - utter_number_repeat
+  - utter_confirm_details
+  - utter_check_availability
+  - utter_confirm_booking
+  - utter_get_back
+  - utter_thats_all
+  - utter_thats_fine
+  - utter_thanks_anyway
+  - utter_acknowledge_info
+  - utter_change_reservation
+  # - utter_cancel_booking
+  - utter_booked_day
+  - utter_can_you_repeat
+  - utter_great
+  - utter_special_thanks
+  - utter_decide
+  - utter_drinks
+  - utter_call_back
+  - utter_make_book
+  - utter_what
+  - utter_wrong_number
+  # - utter_delay
